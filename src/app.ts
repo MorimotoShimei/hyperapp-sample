@@ -1,4 +1,5 @@
 import { h, app, View } from "hyperapp";
+import { main, h1, button } from "@hyperapp/html";
 
 class State {
     public constructor(public readonly count: number) {
@@ -16,10 +17,10 @@ class Actions {
 }
 
 const view: View<State, Actions> = (state, actions) => {
-    return h("main", {}, [
-        h("h1", {}, state.count),
-        h("button", { onclick: actions.down, disabled: state.count <= 0 }, "-"),
-        h("button", { onclick: actions.up }, "+")
+    return main([
+        h1(state.count),
+        button({ onclick: actions.down, disabled: state.count <= 0 }, "-"),
+        button({ onclick: actions.up }, "+")
     ]);
 }
 

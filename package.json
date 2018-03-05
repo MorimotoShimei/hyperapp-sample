@@ -12,6 +12,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@hyperapp/html": "^1.0.1",
     "awesome-typescript-loader": "^3.5.0",
     "file-loader": "^1.1.11",
     "typescript": "^2.7.2",
