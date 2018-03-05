@@ -1,5 +1,11 @@
 # hyperapp-sample
 
+hyperapp
+[Github](https://github.com/hyperapp/hyperapp)
+
+@hyperapp/html
+[Github](https://github.com/hyperapp/html)
+
 ## init
 ```
 npm install
